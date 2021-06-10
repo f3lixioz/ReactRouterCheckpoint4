@@ -1,12 +1,12 @@
 // import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import newsArticles from './HomeFeed'
+import NewsArticles from './HomeFeed'
 
 
 const Home = () => {
     return (
         <div>
             <h2>Top News for You</h2>
-            <newsArticles />
+            <NewsArticles />
         </div>
         )
 }
